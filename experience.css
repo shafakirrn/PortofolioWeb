@@ -1,0 +1,92 @@
+@import url("https://fonts.cdnfonts.com/css/poppins");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-size: cover;
+  background-position-x: center;
+  background: #080808;
+  color: #fff;
+  background-image: url(images/galaxy.jpg);
+}
+.container {
+  padding: 10px 5%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  position: relative;
+}
+
+nav ul li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: lightsalmon;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+.logo {
+  width: 100px;
+}
+
+#Experience {
+  padding: 10px 0;
+  color: white;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Experience-col-1 {
+  flex-basis: 35%;
+}
+
+h2 {
+  color: #b54769; 
+  font-size: 32px;
+}
+
+.experience-item {
+  margin-bottom: 14px; 
+}
+
+.experience-name {
+  font-size: 19px; 
+  color: rgb(212, 105, 162)
+}
+
+p {
+  margin-top: 0;
+  font-size: 15px; 
+  color: white;
+}
+
